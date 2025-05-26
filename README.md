@@ -17,8 +17,11 @@ Step3: Inside a method calculateTotal() initialise a variable total= 0
 Step4: Iterate in the items array, then for each item in the array,  multiply the item price and the item quantity, then sum up the output to get the totalOrderAmount. Return the totalOrderAmount.
 
 Step5: Create async function processPayment(),
+
 Step6: Simulate payment processing with a promise that resolves after  2 seconds
+
 Step 7: wait for 2 seconds then update the order status to paid. Where status=paid
+
 Step8:print payment processed successfully.
 
 ## QUESTION 2
