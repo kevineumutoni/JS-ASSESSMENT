@@ -4,7 +4,7 @@ This repository contains JavaScript real-life based questions aimed to apply asy
 ## QUESTION 1
 Create a CustomerOrder class with properties: orderId (string), items (array of objects with name,quantity, price), and status (string). Add a method calculateTotal() that returns the total order amount. Write an async method processPayment() that simulates payment with a Promise that resolves after 2 seconds. After calling the method, change the status to "paid" and print a success message.
 
-**Pseudocode**
+## Pseudocode
 Input: Class with an Object as a parameter
 Output:String
 
@@ -27,7 +27,7 @@ Step8:print payment processed successfully.
 ## QUESTION 2
 Create a TeamMember class that takes name, role, and an array of tasks (each task is an object with title and completed boolean). Write a prototype method completeTask(taskTitle) that marks a task as completed. Write another method checkProgress() that returns a Promise resolving to "All tasks completed!" or rejecting with "Pending tasks remaining" based on the state of the tasks array.
 
-**Pseudocode**
+## Pseudocode
 
 Input: A class with an Object as a parameter
 Output:String
@@ -52,7 +52,7 @@ Else return “a promise that rejects with “pending tasks remaining”
 ## QUESTION 3
 Build a Candidate class with properties: name, position, and interviews (array of objects with date, status). Add a method scheduleInterview(date) that pushes a new interview with status "pending". Then write an async function sendConfirmation() that returns a Promise that resolves after 1 second with a message "Interview confirmed with [name]", and log the message.
 
-**Pseudocode**
+## Pseudocode
 Input: A class with Object as parameters
 Output: String
 
